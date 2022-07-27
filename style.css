@@ -1,3 +1,12 @@
 .carousel-item img {
     height: 600px;
 }
+
+@media screen and (max-width:576px) {
+    .small {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
