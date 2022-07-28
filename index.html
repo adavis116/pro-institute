@@ -211,7 +211,32 @@
                     <p class="text-white">Want to be updated with our latest news?Register NOW!</p>
                 </div>
                 <div>
-                    <button type="submit" class="btn btn-light btn-lg my-5 text-info">See More Courses</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn btn-light btn-lg my-5 text-info" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register NOW!
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Registration confirmation!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                Please confirm your registration by clicking "Apply"
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- register end -->
@@ -226,54 +251,77 @@
                 </div>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button btn-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        What is the difference between flex box and grid?
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button btn-custom" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the difference between flex box and grid?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can
+                                work on either row or columns at a time, but Grids can work on both. Flexbox, gives you
+                                more flexibility while working on either element (row or column). HTML markup and CSS
+                                will be easy to manage in this type of scenario.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        What is the difference between bootstrap and tailwind?
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.Bootstrap's utility and layout classes provide you with everything you need to style a responsive webpage.
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the difference between bootstrap and tailwind?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Bootstrap comes with a set of pre-styled responsive, mobile-first components that
+                                possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat
+                                UI with more flexibility and uniqueness. Sites created using Bootstrap follow the
+                                generic pattern that makes them look identical.Bootstrap's utility and layout classes
+                                provide you with everything you need to style a responsive webpage.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        What is a semantic tag?
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is a semantic tag?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather
+                                than just presentation. For example, a <p> tag indicates that the enclosed text is a
+                                    paragraph. This is both semantic and presentational because people know what
+                                    paragraphs are, and browsers know how to display them.
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        What is css box model?
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. It is a fundamental concept for the composition of HTML webpages.For setting the width & height property of an element(for properly rendering the content in the browser), we need to understand the working of the CSS Box model.
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is css box model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In CSS, the term "box model" is used when talking about design and layout. The CSS box
+                                model is essentially a box that wraps around every HTML element. It consists of:
+                                margins, borders, padding, and the actual content. It is a fundamental concept for the
+                                composition of HTML webpages.For setting the width & height property of an element(for
+                                properly rendering the content in the browser), we need to understand the working of the
+                                CSS Box model.
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
             </div>
             <!-- FAQ end -->
         </section>
@@ -298,20 +346,21 @@
     <footer>
         <div class="bg-dark text-white text-center p-5">
             <h2>Pro Institute</h2>
-            <p>Office 41, Zawaya Buildin, Dhaka, <br> People's Republic of Bangladesh.<br> Privacy Ploicy | Terms of use</p>
+            <p>Office 41, Zawaya Buildin, Dhaka, <br> People's Republic of Bangladesh.<br> Privacy Ploicy | Terms of use
+            </p>
             <div class="footer-social text-white d-flex justify-content-center">
-                    <a href="http://www.facebook.com" target="_blank">
-                        <em class="fa-brands fa-facebook-square fa-2x m-2"></em>
-                    </a>
-                    <a href="http://www.twitter.com" target="_blank">
-                        <em class="fa-brands fa-twitter-square fa-2x m-2"></em>
-                    </a>
-                    <a href="http://www.linkedin.com" target="_blank">
-                        <em class="fa-brands fa-linkedin fa-2x m-2"></em>
-                    </a>
-                    <a href="http://www.youtube.com">
-                        <em class="fa-brands fa-youtube-square fa-2x m-2"></em>
-                    </a>
+                <a href="http://www.facebook.com" target="_blank">
+                    <em class="fa-brands fa-facebook-square fa-2x m-2"></em>
+                </a>
+                <a href="http://www.twitter.com" target="_blank">
+                    <em class="fa-brands fa-twitter-square fa-2x m-2"></em>
+                </a>
+                <a href="http://www.linkedin.com" target="_blank">
+                    <em class="fa-brands fa-linkedin fa-2x m-2"></em>
+                </a>
+                <a href="http://www.youtube.com">
+                    <em class="fa-brands fa-youtube-square fa-2x m-2"></em>
+                </a>
             </div>
         </div>
     </footer>
