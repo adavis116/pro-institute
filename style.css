@@ -1,8 +1,8 @@
 .carousel-item img {
     height: 600px;
 }
-
-@media screen and (max-width:576px) {
+/* mobile */
+@media screen and (max-width:688px) {
     .small {
         display: flex;
         flex-direction: column;
@@ -10,7 +10,8 @@
         align-items: center;
     }
 }
-@media screen and (min-width:577px) and (max-width:768px) {
+/* tablet */
+@media screen and (min-width:689px) and (max-width:992px) {
     .register {
         display: flex;
         flex-direction: column;
@@ -21,7 +22,8 @@ margin-top: 40px;
 align-items: center;
     }
 }
-@media screen and (max-width:576px) {
+/* small device */
+@media screen and (max-width:688px) {
     .register {
         display: flex;
         flex-direction: column;
@@ -32,3 +34,16 @@ align-items: center;
         align-items: center;
             }
 }
+/* medium device */
+@media screen and (min-width:689px) and (max-width:992px) {
+    .trusted-company {
+        display:none
+    }
+}
+/* small device */
+@media screen and (max-width:576px) {
+    .trusted-company {
+        display:none
+    }
+}
+
