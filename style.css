@@ -41,9 +41,13 @@ align-items: center;
     }
 }
 /* small device */
-@media screen and (max-width:576px) {
+@media screen and (max-width:688px) {
     .trusted-company {
         display:none
     }
 }
+
+.footer-social a:visited {
+    color:white;
+  }
 
